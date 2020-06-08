@@ -1,4 +1,4 @@
-.amdt-school-of-creativity-logo {
+/* .amdt-school-of-creativity-logo {
     height: 144px;
     width: 216px;
   }
@@ -13,4 +13,19 @@
     letter-spacing: -0.09px;
     line-height: 59px;
     text-align: center;
+  } */
+
+  .amdt{
+      
+      text-align: center;
+      padding: 10px;
+      position:center;
+
+  }
+
+  .logo-top{
+    height: 144px;
+    width: 216px;
+    position:center;
+    padding-left: 10px;
   }
