@@ -57,7 +57,7 @@
     line-height: 59px;
     letter-spacing: -0.09px;
     text-align: center;
-    font color: #E02020;
+    
   }
 
   .uk{
@@ -109,12 +109,9 @@
       margin: -2px 0px 55px;
       padding: 25px 15px;
   }
-  .maindiv{
-    ..background-color: rgba(150,205,165,0.6);
-    padding-bottom: 5px ;
+ 
     
-    
-  }
+  
   .subdiv{
     text-align: center;
   }
