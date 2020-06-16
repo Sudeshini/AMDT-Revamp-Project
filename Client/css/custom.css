@@ -22,6 +22,7 @@
       position:center;
       z-index:2;
       width: 100%;
+      color:#000000;
 
   }
 
@@ -64,7 +65,7 @@
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -0.09px;
-    color:rgb(0, 0, 0);
+    color:#E02020;
     text-underline-position: below;
   
   }
@@ -109,7 +110,7 @@
       padding: 25px 15px;
   }
   .maindiv{
-    background-color: rgba(150,205,165,0.6);
+    ..background-color: rgba(150,205,165,0.6);
     padding-bottom: 5px ;
     
     
@@ -124,6 +125,11 @@
   .row.subrow.maindiv .col-sm-4{
     text-align: center;
     background-image: url("circl.png");
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 15px;
+    float: left;
   }
   .row.subrow.maindiv .col-sm-4:hover{
     text-align: center;
@@ -133,6 +139,28 @@
   .xx{
 
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
 
+  }
+  .col-sm-4{
+    
+    text-align: center;
+    width:100%;
+   
+}
+
+.hex {
+ 
+  width: 100px;
+  text-align:center;
+  display: block;
+  
+}
+
+  P{
+    text-align: center;;
+  }
+
+  h2{
+    text-align: center;
   }
