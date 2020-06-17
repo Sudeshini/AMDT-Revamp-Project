@@ -1,0 +1,157 @@
+/* .amdt-school-of-creativity-logo {
+    height: 144px;
+    width: 216px;
+  }
+
+  .uk-creative-degrees {
+    height: 118px;
+    width: 735px;
+    color: #E02020;
+    font-family: Metropolis;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: -0.09px;
+    line-height: 59px;
+    text-align: center;
+  } */
+
+  .nav-d-flex-center{
+      
+      text-align: center;
+      padding: 10px;
+      position:center;
+      z-index:2;
+      width: 100%;
+      color:#000000;
+
+  }
+
+  .logo-top{
+    height: 144px;
+    width: 216px;
+    z-index:1;
+    padding-left: 10px;
+    float:center;
+  
+    
+    
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .image-fluid{
+    position: absolute;
+    z-index: 2;
+    height: auto;
+    max-width: 100%;
+    
+  }
+  .pb-4 mb-4 font-medium{
+
+    font-size: 36px;
+    line-height: 59px;
+    letter-spacing: -0.09px;
+    text-align: center;
+    
+  }
+
+  .uk{
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.09px;
+    color:#E02020;
+    text-underline-position: below;
+  
+  }
+  .p{
+    text-align: center;
+    
+  }
+ 
+
+  .btn{
+    height: 60px;
+    width: 178px;
+    
+     
+}
+  header{
+  position: absolute;
+  width: 100%;
+
+
+  }
+
+  .logo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation{
+    width: 100%;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+  .textCon{
+    text-align: center;
+    
+  }
+  .bg {
+      text-align: center;
+      margin: -2px 0px 55px;
+      padding: 25px 15px;
+  }
+ 
+    
+  
+  .subdiv{
+    text-align: center;
+  }
+  .row.subrow.maindiv {
+      padding: 0px 10%;
+      
+  }
+  .row.subrow.maindiv .col-sm-4{
+    text-align: center;
+    background-image: url("circl.png");
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 15px;
+    float: left;
+  }
+  .row.subrow.maindiv .col-sm-4:hover{
+    text-align: center;
+    background-image: url("circle_b.png");
+    
+  }
+  .xx{
+
+    text-align: center;
+    font-size: 35px;
+
+  }
+  .col-sm-4{
+    
+    text-align: center;
+    width:100%;
+   
+}
+
+
+
+  P{
+    text-align: center;;
+  }
+
+  h2{
+    text-align: center;
+  }
