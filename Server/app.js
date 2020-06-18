@@ -7,7 +7,10 @@ const hbs = require( 'express-handlebars' );
 
 var indexRouter = require('./routes/index');
 var courseRouter = require('./routes/courses');
-var usersRouter = require('./routes/users');
+var ourStoryRouter = require('./routes/ourStory');
+var aboutDeveloperRouter = require('./routes/aboutDev');
+var contactRouter = require('./routes/contact');
+// var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -30,7 +33,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/courses', courseRouter);
-app.use('/users', usersRouter);
+app.use('/our_story', ourStoryRouter);
+app.use('/about_the_developer', aboutDeveloperRouter);
+app.use('/contact', contactRouter);
+// app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
