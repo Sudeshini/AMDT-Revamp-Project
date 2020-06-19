@@ -82,6 +82,7 @@ header {
 .logo {
   width: 100%;
   text-align: center;
+  z-index: 1;
 }
 
 .logo-top {
@@ -165,7 +166,8 @@ h2 {
 
 /* Hero region */
 .hero-image {
-  margin-top: -290px;
+  /* margin-top: -290px; */
+  
 }
 
 .bg-green {
