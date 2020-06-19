@@ -188,7 +188,17 @@ footer {
 }
 
 
+footer p {
+  text-align: left;
+}
+
+footer .footer-subscribe {
+  border: 1px solid black;
+  padding: 16px;
+}
+
 footer .text-block {
+  line-height: 28px;
   text-align: left;
   margin-left: 58px;
   font-size: 12px;
