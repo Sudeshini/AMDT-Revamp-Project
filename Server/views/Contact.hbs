@@ -41,29 +41,28 @@
 
             <div class="row">
                 <div class="col-md-12" style="margin-top: 250px;">
-                    <form method="POST">
+                    <form method="POST" id="contact-form">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="text" name="name" placeholder="" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="" class="form-control" id="name" />
                             <small id="emailHelp" class="form-text text-muted">Put it here your Full name.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">address</label>
-                            <input type="text" name="address" class="form-control" id="exampleInputPassword1">
+                            <label for="address">address</label>
+                            <input type="text" name="address" class="form-control" id="address">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Message</label>
-                            <textarea name="message" id="message" class="form-control"  cols="30" rows="5"></textarea>
-                            {{!-- <input type="password" class="form-control" id="exampleInputPassword1"> --}}
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" class="form-control" cols="30" rows="5"></textarea>
                         </div>
-                        <div class="form-group form-check">
+                        {{!-- <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
+                        </div> --}}
                         <button type="submit" class="btn btn-primary"
                             style="background-color:#F5C532; height: 63px; width: 461px; border-radius: 4px;">Submit</button>
                     </form>
+                    <div id="message-elem"></div>
                 </div>
             </div>
             <div class="container">
@@ -83,18 +82,8 @@
                         </div>
                         <img src="images/assets/Path 4.png" />
                     </div>
-
-
-
-
-
                 </div>
             </div>
-
-
         </div>
-
     </div>
-</div>
-</div>
 </div>
